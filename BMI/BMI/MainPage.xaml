@@ -6,22 +6,6 @@
     <ContentPage.Content>
         <StackLayout>
             <Label Text="JK3A24 平井隆成" />
-            <Label Text="身長を入力してください" 
-                HorizontalOptions="Center" />
-
-            <Entry Text="160.0" 
-                HorizontalOptions="Center" />
-
-            <Label Text="体重を入力してください"
-                HorizontalOptions="Center" />
-
-            <Entry Text="50" 
-                HorizontalOptions="Center" 
-                   x:Name="weight"/>
-
-            <Button Text="BMIを計算します"
-                HorizontalOptions="Center" 
-                    Clicked="Button_Clicked"/>
             <Label Text="Welcome to Xamarin.Forms!"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
