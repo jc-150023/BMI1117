@@ -13,5 +13,9 @@ namespace BMI
         {
             InitializeComponent();
         }
+        private void BMI_Button_Click(object sender, EventArgs e)
+        {
+            DisplayAlert("BMI", "太りすぎ", "OK");
+        }
     }
 }
