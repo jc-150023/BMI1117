@@ -10,11 +10,11 @@
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
 
-            <ENTRY Text="160.0"
+            <Entry Text="160.0"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand"
                    x:Name="height" />
-            <BuUTTON Text="BMIを計算"
+            <Button Text="BMIを計算"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" 
                      x:Name="BMIButton"
