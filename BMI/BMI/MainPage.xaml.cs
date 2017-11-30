@@ -15,7 +15,10 @@ namespace BMI
         }
         private void BMI_Button_Click(object sender, EventArgs e)
         {
-            DisplayAlert("BMI", "太りすぎ", "OK");
+            double dHeight = double.Parse(height.Text);
+
+
+            DisplayAlert("BMI", dHeight+":太りすぎ", "OK");
         }
     }
 }
